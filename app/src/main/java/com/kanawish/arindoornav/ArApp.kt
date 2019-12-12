@@ -9,7 +9,7 @@ import toothpick.ktp.KTP
 import toothpick.ktp.delegate.inject
 import toothpick.smoothie.module.SmoothieApplicationModule
 
-class MainApp : Application() {
+class ArApp : Application() {
     private val activityLifecycleCallbacks: ToothpickActivityLifecycleCallbacks by inject()
 
     private val scope: Scope = KTP.openRootScope()
